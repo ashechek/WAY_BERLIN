@@ -1,12 +1,15 @@
 #root {
   color: olivedrab;
-  text-align: center;
 }
 
 body {
   background-color: rgb(255, 255, 255);
   margin: 0;
-  max-width: 100%;
+  text-align: center;
+}
+
+div {
+  margin-bottom: 12px;
 }
 
 h1 {
@@ -14,7 +17,7 @@ h1 {
   font-size: 64px;
   letter-spacing: 12px;
   margin: 0;
-  align-self: center;
+  margin-top: 18px;
 }
 
 h2 {
