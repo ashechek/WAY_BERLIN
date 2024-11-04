@@ -1,0 +1,30 @@
+#root {
+  color: olivedrab;
+  text-align: center;
+  max-width: 1280px;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+h1 {
+  font-family: "Rawgly", sans-serif;
+  font-size: 132px;
+  letter-spacing: 12px;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Rawgly", sans-serif;
+  font-size: 32px;
+  letter-spacing: 6px;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Rawgly";
+  src: url("./assets/Fonts/Rawgly-Regular.woff2") format("woff2"),
+    url("./assets/Fonts/Rawgly-Regular.woff") format("woff");
+}
