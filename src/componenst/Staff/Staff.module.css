@@ -1,0 +1,50 @@
+.staffBox {
+    border: 5px solid #5a783f;
+    border-radius: 40px;
+
+
+    box-shadow: inset 0 0 27px 10px rgba(28, 28, 28, 0.4);
+    background: #6b8e4b;
+
+    margin-left: 4px;
+    margin-right: 4px;
+
+    max-width: 380px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 34px;
+}
+
+.titleText {
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.text {
+    color: white;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.staffImage {
+    object-fit: cover;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        align-items: center;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 34px;
+    }
+}
