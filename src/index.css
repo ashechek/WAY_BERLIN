@@ -1,5 +1,5 @@
 #root {
-  color: rgb(107, 142, 35);
+  color: seagreen;
 }
 
 body {
@@ -22,14 +22,14 @@ h1 {
 }
 
 h2 {
-  font-family: "Unna", sans-serif;
+  font-family: sans-serif;
   font-size: 36px;
   margin: 0;
   font-weight: 400;
 }
 
 p {
-  font-family: "Lexend Deca", sans-serif;
+  font-family: sans-serif;
   font-size: 20px;
   margin: 0;
   letter-spacing: -0.5px;
