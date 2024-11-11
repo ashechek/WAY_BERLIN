@@ -27,25 +27,35 @@ body {
 
   border-color: black;
   border-width: 2px;
+  border-top: 0;
+  border-bottom: 0;
   border-style: solid;
 }
 
 h1 {
-  font-size: 5.2em;
+  font-size: 4.2em;
   line-height: 1.1;
-  font-weight: 800;
+  font-weight: 600;
   margin: 0 0 0 0;
 }
 
+h1:hover {
+  cursor: default;
+}
+
 h2 {
-  font-size: 2em;
+  font-size: 1.8em;
   line-height: 1.1;
   font-weight: 600;
 }
 
+h2:hover {
+  cursor: default;
+}
+
 p {
   text-align: left;
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 1.2;
   letter-spacing: -1px;
   font-weight: 500;

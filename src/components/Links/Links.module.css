@@ -1,0 +1,9 @@
+.linkButton {
+    background-color: black;
+    padding: 0.2rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.linkButton:hover {
+    background-color: whitesmoke;
+}
