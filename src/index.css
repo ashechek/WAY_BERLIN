@@ -44,7 +44,7 @@ h1:hover {
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 1.5em;
   line-height: 1.1;
   font-weight: 600;
 }
@@ -55,7 +55,7 @@ h2:hover {
 
 p {
   text-align: left;
-  font-size: 1.25em;
+  font-size: 1em;
   line-height: 1.2;
   letter-spacing: -1px;
   font-weight: 500;
@@ -63,14 +63,23 @@ p {
 
 @media (min-width: 768px) {
   :root {
-    background-color: blanchedalmond;
+    background-color: whitesmoke;
     max-width: 800px;
+  }
+
+  p {
+    font-size: 1.2em;
   }
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
-    color: #213547;
-    background-color: #000000;
+    color: seagreen;
+    background-color: #181818;
   }
-} */
+
+  body {
+    border-color: whitesmoke;
+  }
+
+}
