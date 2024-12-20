@@ -1,8 +1,21 @@
 h1 {
-    font-size: 8em;
+    font-size: 100px
 }
 
 h2 {
-    font-size: 4em;
+    font-size: 60px;
     margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 200px;
+    }
+
+    h2 {
+        font-size: 130px;
+        margin: 0;
+    }
 }
