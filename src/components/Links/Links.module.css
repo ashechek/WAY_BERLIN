@@ -2,10 +2,19 @@
     background-color: black;
     padding: 0.2rem;
     transition: all 0.1s ease-in-out;
+    width: 8rem;
+
 }
 
 .linkButton:hover {
     background-color: whitesmoke;
+}
+
+.linksWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
 }
 
 @media (prefers-color-scheme: dark) {
