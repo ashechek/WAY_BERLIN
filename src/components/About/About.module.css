@@ -1,14 +1,19 @@
-h1 {
+h1,
+title {
     font-family: 'Rubik Vinyl', cursive;
     font-size: 100px;
     margin: 0;
 }
 
-h2 {
+h2,
+subtitle {
     font-family: 'Rubik Vinyl', cursive;
     font-size: 60px;
     margin: 0;
 }
+
+p,
+text {}
 
 @media (prefers-color-scheme: dark) {}
 
