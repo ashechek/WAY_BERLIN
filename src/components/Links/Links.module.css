@@ -3,10 +3,25 @@
     padding: 0.2rem;
     transition: all 0.1s ease-in-out;
     width: 8rem;
+}
 
+.linkButtonM {
+    background-color: black;
+    padding: 0.2rem;
+    transition: all 0.1s ease-in-out;
+    width: 8rem;
+
+    border-color: yellow;
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
 }
 
 .linkButton:hover {
+    background-color: whitesmoke;
+}
+
+.linkButtonM:hover {
     background-color: whitesmoke;
 }
 
@@ -17,12 +32,33 @@
     align-items: center;
 }
 
+.linkButton {
+    background-color: rgb(0, 0, 0);
+    padding: 0.2rem;
+    transition: all 0.1s ease-in-out;
+    width: 8rem;
+}
+
+.linkButton:hover {
+    background-color: aliceblue;
+}
+
+
+
 @media (prefers-color-scheme: dark) {
     .linkButton {
-        background-color: whitesmoke;
+        background-color: aliceblue;
+    }
+
+    .linkButtonM {
+        background-color: aliceblue;
     }
 
     .linkButton:hover {
+        background-color: black;
+    }
+
+    .linkButtonM:hover {
         background-color: black;
     }
 }

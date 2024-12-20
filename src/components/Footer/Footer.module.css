@@ -1,0 +1,10 @@
+.text {
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+@media (prefers-color-scheme: dark) {
+    .text {
+        color: aliceblue;
+    }
+}

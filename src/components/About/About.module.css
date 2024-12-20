@@ -8,12 +8,15 @@ title {
 h2,
 subtitle {
     font-family: 'Rubik Vinyl', cursive;
-    font-size: 60px;
+    font-size: 50px;
     margin: 0;
+    margin-top: -20px;
 }
 
 p,
-text {}
+text {
+    text-align: center;
+}
 
 @media (prefers-color-scheme: dark) {}
 
@@ -23,7 +26,8 @@ text {}
     }
 
     h2 {
-        font-size: 130px;
+        font-size: 100px;
         margin: 0;
+        margin-top: -40px;
     }
 }
