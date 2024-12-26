@@ -1,4 +1,4 @@
-.modal-overlay {
+.modalOverlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -25,8 +25,7 @@
     background-color: black;
     padding: 0.2rem;
     transition: all 0.1s ease-in-out;
-    width: 8rem;
-
+    width: 140px;
     border-color: yellow;
     border-width: 2px;
     border-style: solid;

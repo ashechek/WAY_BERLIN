@@ -20,7 +20,7 @@ function LinksModal() {
         }
             {
                 isModalOpen && (
-                    <div className="modal-overlay">
+                    <div className={s.modalOverlayy}>
                         <div className="modal">
                             <div className={s.form}>
                                 <input type="Name" placeholder="Name*" />
