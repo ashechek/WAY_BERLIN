@@ -2,7 +2,7 @@
     background-color: black;
     padding: 0.2rem;
     transition: all 0.1s ease-in-out;
-    width: 8rem;
+    max-width: 130px;
     font-size: 16px;
 }
 
