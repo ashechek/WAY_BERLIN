@@ -13,20 +13,22 @@ function LinksModal() {
     };
 
     return (
-        <div>
-            <button onClick={openModal} className={s.buttonMain}>Jetzt anmelden!</button>
+        <div>{
+            !isModalOpen && (
+                <button onClick={openModal} className={s.buttonMain}>Jetzt anmelden!</button>
+            )
+        }
             {
                 isModalOpen && (
                     <div className="modal-overlay">
                         <div className="modal">
-                            <h2>Jetzt <br></br> anmelden!</h2>
                             <div className={s.form}>
                                 <input type="Name" placeholder="Name*" />
                                 <input type="Email" placeholder='Email' />
                                 <input type="Telephone" placeholder='Telefonnummer*' />
                                 <button className={s.buttonMain} type='submit'>Jetzt Senden</button>
                             </div>
-                            <button onClick={closeModal} className={s.buttonMain}>schließen</button>
+                            <button onClick={closeModal} className={s.buttonMain}>schließen?</button>
                         </div>
                     </div>
                 )
