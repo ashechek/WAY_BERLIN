@@ -2,7 +2,7 @@ import s from "./Footer.module.css"
 const Footer = () => {
     return (
         <div>
-            <p className={s.text}>V0.012</p>
+            <p className={s.text}>V0.013</p>
         </div>
     )
 }
